@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Header from './Header'
 import H1 from './HomeTodoComp/H1'
 import H3 from './HomeTodoComp/H3'
 import Container from './HomeTodoComp/Container'
@@ -64,7 +63,6 @@ function HomeTodo() {
 
     return (
         <>
-            <Header />
             <Container>
                 <div className="pb-12">
                     <H1>Thing to get done</H1>

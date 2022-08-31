@@ -1,9 +1,9 @@
 import { useState, useCallback } from 'react'
 import Card from './ProductTodoComp/Card';
-import Button from './ProductTodoComp//Button';
+import Button from './ProductTodoComp/Button';
 import ProductRow from './ProductTodoComp/ProductRow';
 
-function ProdectTodo(props) {
+function ProductTodo(props) {
 
   console.log("running to Product Page Tag");
 
@@ -46,4 +46,4 @@ function ProdectTodo(props) {
   )
 }
 
-export default ProdectTodo;
+export default ProductTodo;
